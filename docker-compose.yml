@@ -1,0 +1,18 @@
+version: '3'
+services:
+  db:
+    image: postgres:16.0
+    volumes:
+      -
+    environment:
+      - POSTGRES_PASSWORD=postgres
+  web:
+    build: .
+    image: ORF-test1
+    command: 
+    volumes:
+      - .:/
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
