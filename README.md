@@ -4,6 +4,7 @@
 1. PostgresQL(Docler) -16.0 (採用時最新 2023/11/07)
 2. node.js(Docker) -20.9.0 (採用時LTS版最新 2023/11/07)
 3. ruby(Docker) -3.2.2 (推奨バージョンの内最新 [この記事を参照](https://www.fastruby.io/blog/ruby/rails/versions/compatibility-table.html))
+4. rails -7.1.1 ([採用時最新](https://rubyonrails.org/category/releases) 2023/11/07)
 ## 問題点を記述（レベル３見出し 日付必須）
 
 ## 開発中に見つけた注意点をなるべく記述
